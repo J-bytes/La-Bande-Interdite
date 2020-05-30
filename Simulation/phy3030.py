@@ -54,8 +54,8 @@ grille=np.zeros((N,N))
     #4 rétabli ou mort
 
 
-x_step =np.array([-1,0,1,0]) # template arrays
-y_step =np.array([0,-1,0,1])
+x_step = np.array([-1,0,1,0]) # template arrays
+y_step = np.array([0,-1,0,1])
 """
 x,y =np.zeros(M),np.zeros(M) # walker (x,y) coordinates
 infect =np.zeros(M) # walker health status

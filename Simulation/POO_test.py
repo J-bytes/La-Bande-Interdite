@@ -1,5 +1,8 @@
-class Person:
 
+
+class People:
+
+# the input must be numpy arrays
     def __init__(self, x, y, status='healthy', age, hygiene):
         self.x = x
         self.y = y
@@ -7,6 +10,5 @@ class Person:
         self.age = age
         self.hygiene = hygiene
 
-    def change_status(self,newstatus):
+    def change_status(self, newstatus):
         self.status = newstatus
-    
