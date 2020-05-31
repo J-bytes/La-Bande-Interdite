@@ -50,7 +50,7 @@ class personne:
                 if (r1<0.3):
                     self.change_status("sick")
                                     
-c = np.array([personne(0,0,"healthy"),personne(5,5,"sick"),personne(10,10,"healthy")])
+c = np.array([personne(0,0,"healthy"),personne(5,5,"sick"),personne(10,10,"healthy")],dtype=personne)
 for i in range(len(c)):
     for j in range(i+1,len(c)):
         print(c[i].get_distance(c[j]))
